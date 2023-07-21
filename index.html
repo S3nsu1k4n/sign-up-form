@@ -14,36 +14,54 @@
       <img id="odin-img" src="./images/odin-lined.png">
       <p>ODIN</p>
     </div>
-    <p>Photo by Halie West on Unsplash</p>
+    <div id="credits">
+      <footer>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></footer>
+    </div>
   </div>
   
   <div id="right-side">
     <div id="top">
-      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-      <p>Sign up <em>now</em> to get started.</p>
-      <p>You <em>know</em> you want to</p>
+      <p id="text1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</p>
+      <p id="text2">You <em>know</em> you want to.</p>
     </div>
 
     <div id="middle">
-      <p>Let's do this!</p>
-      <form>
-        <label for="first_name">FIRST NAME</label>
-        <input type="text" id="first_name", name="first_name">
-        <label for="last_name">LAST NAME</label>
-        <input type="text" id="last_name" name="last_name">
-        <label for="email">EMAIL</label>
-        <input type="text" id="email" name="email">
-        <label for="phone_number">PHONE NUMBER</label>
-        <input type="tel" id="phone_number" name="phone_number">
-        <label for="password">PASSWORD</label>
-        <input type="password" id="password" name="password">
-        <label for="confirm_password">CONFIRM PASSWORD</label>
-        <input type="password" id="confirm_password" name="confirm_password">
-      </form>
+      <p id="middle-text">Let's do this!</p>
+      
+      <div id="first-formrow">
+        <form class="left">
+          <label for="first_name">FIRST NAME</label>
+          <input type="text" id="first_name", name="first_name">
+        </form>
+        <form class="right">
+          <label for="last_name">LAST NAME</label>
+          <input type="text" id="last_name" name="last_name">
+        </form>
+      </div>
+      <div id="second-formrow">
+        <form class="left">
+          <label for="email">EMAIL</label>
+          <input type="text" id="email" name="email">
+        </form>
+        <form class="right">
+          <label for="phone_number">PHONE NUMBER</label>
+          <input type="tel" id="phone_number" name="phone_number">
+        </form>
+      </div>
+      <div id="third-formrow">
+        <form class="left">
+          <label for="password">PASSWORD</label>
+          <input type="password" id="password" name="password">
+        </form>
+        <form class="right">
+          <label for="confirm_password">CONFIRM PASSWORD</label>
+          <input type="password" id="confirm_password" name="confirm_password">
+        </form>
+      </div>
     </div>
     <div id="bottom">
       <button type="submit">Create Account</button>
-      <p>Already have an account? Log in</p>
+      <p>Already have an account? <a href="" id="login-link">Login</a></p>
     </div>
   
   </div>
