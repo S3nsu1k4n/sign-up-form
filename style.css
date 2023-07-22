@@ -38,6 +38,9 @@ body {
 :visited{
   color: white;
 }
+:link{
+  color: white;
+}
 
 #odin-img{
   height: 80%;
@@ -94,9 +97,6 @@ form{
   margin-left: 5%;
   margin-right: 55%;
 }
-form > input{
-  border-radius: 5px;
-}
 #first-formrow{
   flex: 1;
   display: flex;
@@ -116,13 +116,13 @@ form > input{
 }
 
 input{
-  border-color: #E5E7EB;
-  
+  border: solid 1px #E5E7EB;
+  border-radius: 3px;
+  outline: 0px;
 }
 input:focus{
   border-color: blue;
-  border-width: 1px;
-  box-shadow: 5px gray;
+  box-shadow: 2px 2px 8px 1px rgba(21, 34, 225, 0.5);
 }
 
 button{
