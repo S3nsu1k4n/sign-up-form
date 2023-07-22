@@ -29,39 +29,41 @@
       <p id="middle-text">Let's do this!</p>
       
       <div id="first-formrow">
-        <form class="left">
+        <div class="left">
           <label for="first_name">FIRST NAME</label>
-          <input type="text" id="first_name", name="first_name">
-        </form>
-        <form class="right">
+          <input type="text" id="first_name", name="first_name" placeholder="Odin">
+        </div>
+        <div class="right">
           <label for="last_name">LAST NAME</label>
-          <input type="text" id="last_name" name="last_name">
-        </form>
+          <input type="text" id="last_name" name="last_name" placeholder="Odinson">
+        </div>
       </div>
       <div id="second-formrow">
-        <form class="left">
+        <div class="left">
           <label for="email">EMAIL</label>
           <input type="text" id="email" name="email">
-        </form>
-        <form class="right">
+        </div>
+        <div class="right">
           <label for="phone_number">PHONE NUMBER</label>
           <input type="tel" id="phone_number" name="phone_number">
-        </form>
+        </div>
       </div>
       <div id="third-formrow">
-        <form class="left">
+        <div class="left" id="password-row">
           <label for="password">PASSWORD</label>
           <input type="password" id="password" name="password">
-        </form>
-        <form class="right">
+        </div>
+        <div class="right">
           <label for="confirm_password">CONFIRM PASSWORD</label>
           <input type="password" id="confirm_password" name="confirm_password">
-        </form>
+        </div>
       </div>
     </div>
     <div id="bottom">
-      <button type="submit">Create Account</button>
-      <p>Already have an account? <a href="" id="login-link">Login</a></p>
+      <form id="submit-button">
+        <button type="submit">Create Account</button>
+      </form>
+        <p>Already have an account? <a href="" id="login-link">Login</a></p>
     </div>
   
   </div>
